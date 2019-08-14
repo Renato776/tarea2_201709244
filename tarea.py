@@ -37,14 +37,14 @@ while(not is_int(y)):
 	print("Vuelva a intentar:")
 	y = raw_input()
 y =  int(y)
-print("Ingrese la coordenada en y de la posicion que desea linealizar:")
+print("Ingrese i de la posicion que desea linealizar:")
 true_x = raw_input()
 while(not is_int(true_x)):
 	print("La entrada NO es un numero.")
 	print("Vuelva a intentar:")
 	true_x = raw_input()
 true_x = int(true_x)
-print("Ingrese la coordenada en x de la posicion que desea linealizar:")
+print("Ingrese j de la posicion que desea linealizar:")
 true_y = raw_input()
 while(not is_int(true_y)):
 	print("La entrada NO es un numero.")
